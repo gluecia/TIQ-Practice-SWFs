@@ -15,9 +15,8 @@ keyListener.onKeyDown = function()
 
    switch(Key.getAscii())
    {
-      // E -> Q36
-      case 69:
-      case 101:
+      // 1 -> Q36
+      case 49:
          _root.gotoAndStop(92);
 
          skip._visible = true;
@@ -25,9 +24,8 @@ keyListener.onKeyDown = function()
          
          break;
 
-      // V -> Q56
-      case 86:
-      case 118:
+      // 2 -> Q56
+      case 50:
          _root.gotoAndStop(130);
 
          skip._visible = true;
@@ -35,9 +33,8 @@ keyListener.onKeyDown = function()
          skip2._visible = true;
          break;
 
-      // C -> Q68
-      case 67:
-      case 99:
+      // 3 -> Q68
+      case 51:
          _root.gotoAndStop(142);
 
          skip._visible = true;
@@ -46,9 +43,8 @@ keyListener.onKeyDown = function()
          skip3._visible = true;
          break;
          
-      // L -> Q81
-      case 76:
-      case 108:
+      // 4 -> Q81
+      case 52:
          _root.gotoAndStop(174);
 
          skip._visible = true;
@@ -58,9 +54,8 @@ keyListener.onKeyDown = function()
          skip4._visible = true;
          break;
          
-      // A -> Q84
-      case 65:
-      case 97:
+      // 5 -> Q84
+      case 53:
          _root.gotoAndStop(177);
 
          skip._visible = true;
@@ -70,9 +65,8 @@ keyListener.onKeyDown = function()
          skip4._visible = true;
          break;
 
-      // P -> Q91
-      case 80:
-      case 112:
+      // 6 -> Q91
+      case 54:
          _root.gotoAndStop(184);
 
          skip._visible = true;
@@ -84,9 +78,8 @@ keyListener.onKeyDown = function()
          skip6._visible = true;
          break;
 
-      // O -> Q100
-      case 79:
-      case 111:
+      // 7 -> Q100
+      case 55:
          _root.gotoAndStop(193);
 
          skip._visible = true;
@@ -98,9 +91,8 @@ keyListener.onKeyDown = function()
          skip6._visible = true;
          break;
 
-      // D -> Q102
-      case 68:
-      case 100:
+      // 8 -> Q102
+      case 56:
          // hacky evil solution
          _root.gotoAndStop(195);
          _root.nextFrame();
@@ -114,9 +106,8 @@ keyListener.onKeyDown = function()
          skip6._visible = true;
          break;
 
-      // R -> Q106
-      case 82:
-      case 114:
+      // 9 -> Q106
+      case 57:
          _root.gotoAndPlay(203);
 
          skip._visible = true;
@@ -128,9 +119,8 @@ keyListener.onKeyDown = function()
          skip6._visible = true;
          break;
 
-      // B -> Q108
-      case 66:
-      case 98:
+      // 0 -> Q108
+      case 48:
          _root.gotoAndPlay(208);
 
          skip._visible = true;
@@ -142,8 +132,9 @@ keyListener.onKeyDown = function()
          skip6._visible = true;
          break;
 
-      // 1 -> Toggling opacity between Epic 10 questions
-      case 49:
+      // T -> Toggling opacity between Epic 10 questions
+      case 84:
+      case 116:
          _global.setOpacity = !_global.setOpacity;
 
       // F -> Resetting lives counter
