@@ -145,11 +145,18 @@ keyListener.onKeyDown = function()
       case 84:
       case 116:
          _global.setOpacity = !_global.setOpacity;
+		 break;
 
       // F -> Resetting lives counter
       case 70:
       case 102:
          _root.lives.gotoAndStop(1);
+		 break;
+		 
+      // B -> Go back a level
+      case 66:
+      case 98:
+         _root.prevFrame();
    }
 
    // hides the yes/no buttons for the shoop question
