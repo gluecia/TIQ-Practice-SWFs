@@ -157,6 +157,12 @@ keyListener.onKeyDown = function()
       case 66:
       case 98:
          _root.prevFrame();
+		 break;
+
+	  // D -> Toggle transparent 102 dots
+      case 68:
+      case 100:
+         _global.project102 = !_global.project102;
    }
 
    // hides the yes/no buttons for the shoop question
